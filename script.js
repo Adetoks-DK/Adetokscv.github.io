@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Rock Paper Scissors</title>
-</head>
-<body>
-
-<h2>Rock, Paper, Scissors</h2>
-
-<button onclick="play('rock')">Rock</button>
-<button onclick="play('paper')">Paper</button>
-<button onclick="play('scissors')">Scissors</button>
-
-<p id="computer"></p>
-<p id="result"></p>
 <script>
 function play(playerChoice) {
     // Computer random choice
@@ -52,5 +37,3 @@ function play(playerChoice) {
     }
 }
 </script>
-</body>
-</html>
